@@ -21,7 +21,7 @@ conda activate supervised
 # Book1
 yt-dlp --yes-playlist https://youtube.com/playlist?list=PL43_brAbQmxg0XELS7GpuygWyrqEoJdUy --audio-format mp3 --audio-quality 0   -o "flute/PaulHarris_Graded76_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 # Book2
-yt-dlp --yes-playlist --playlist-items 1=8.10 https://youtube.com/playlist?list=PL43_brAbQmxgXO-3muBqFY9_uDaBbzGQ5 --audio-format mp3 --audio-quality 0   -o "flute/PaulHarris_Graded76_%(playlist_index+54)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+yt-dlp --yes-playlist --playlist-items 1-8,10 https://youtube.com/playlist?list=PL43_brAbQmxgXO-3muBqFY9_uDaBbzGQ5 --audio-format mp3 --audio-quality 0   -o "flute/PaulHarris_Graded76_%(playlist_index+54)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 
 
 ########

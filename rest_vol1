@@ -41,5 +41,19 @@ yt-dlp --yes-playlist https://youtube.com/playlist?list=PLdKMswDqnn6tZ9N1jEL2YNE
 
 
 
+########
+# Abigail Walsh
+########
+######
+# Bona
+# Rhythmical Articulation
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLTfttGatEdgsiw405mcpfg0vCywEN-D-B --audio-format mp3 --audio-quality 0   -o "flute/AbigailWalsh_BonaArticulation_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+######
+# Drouet 25 *24/25
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLTfttGatEdgvCGkwwDzy4nzXVUvXUE5q9 --audio-format mp3 --audio-quality 0   -o "flute/AbigailWalsh_Drouet25_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+######
+# Kohher
+# 25 Romantic Etudes Op 66, ALL 25!!
+yt-dlp --yes-playlist https://youtube.com/playlist?list=PLTfttGatEdgu7v82ecHNlO3pPj4bJzZk7 --audio-format mp3 --audio-quality 0   -o "flute/AbigailWalsh_KohlerOp66Romantic_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 
 

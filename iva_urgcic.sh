@@ -19,13 +19,13 @@ conda activate supervised
 ########
 # Drouet
 # 25 etudes *20/25
-yt-dlp --yes-playlist https://youtube.com/playlist?list=PLGCSTfKla3Cs7Ro2VgTcD79k0tQP29VEs --audio-format mp3 --audio-quality 0  -i -o "flute/IvaUrgcic_Drouet25_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+yt-dlp --yes-playlist https://youtube.com/playlist?list=PLGCSTfKla3Cs7Ro2VgTcD79k0tQP29VEs -x --audio-format mp3 --audio-quality 0  -i -o "flute/IvaUrgcic_Drouet25_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 
 
 ########
 # Donjon
 # 8 etudes de salon
-yt-dlp --yes-playlist https://youtube.com/playlist?list=PLGCSTfKla3Cu0bGXuRSl34HvaHrhA4xKu  --audio-format mp3 --audio-quality 0  -i -o "flute/IvaUrgcic_Donjon8Salon_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+yt-dlp --yes-playlist https://youtube.com/playlist?list=PLGCSTfKla3Cu0bGXuRSl34HvaHrhA4xKu -x --audio-format mp3 --audio-quality 0  -i -o "flute/IvaUrgcic_Donjon8Salon_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 
 
 
@@ -50,6 +50,6 @@ yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLGCSTfKla3CuH7qjjvk
 ###########
 # Gariboldi 
 # Op 132, only 4
-yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLGCSTfKla3Ctgh5fswREiG49UyXqziNvY --audio-format mp3 --audio-quality 0 -i  -o "flute/IvaUrgcic_GariboldiOp132_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
+yt-dlp --yes-playlist https://www.youtube.com/playlist?list=PLGCSTfKla3Ctgh5fswREiG49UyXqziNvY -x --audio-format mp3 --audio-quality 0 -i  -o "flute/IvaUrgcic_GariboldiOp132_%(playlist_index)03d_%(title)s_[%(id)s]_0000_%(duration)04d.%(ext)s"
 
 
